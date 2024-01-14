@@ -13,13 +13,14 @@ int main() {
 
     double total_tax = state_tax + country_tax;
 
-    cout << state_tax 
-         << " " 
-         << country_tax <<  " "
-         << total_tax
-         << endl;
+    cout << "State tax: " << state_tax 
+         << " " <<  endl
+         << "Country tax: " << country_tax 
+         <<  " " << endl
+         << "Total tax: " << total_tax 
+         << " " << endl << endl;
 
-    cout << sales - total_tax 
-         << " income after tax" 
+    cout << "Income after tax: "
+         << sales - total_tax 
          << endl;
 }
