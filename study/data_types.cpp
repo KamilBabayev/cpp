@@ -21,7 +21,7 @@ int main() {
     cout << number3 << endl;
 
     // numbers can be positive and negative numbers
-    unsigned int number4 = 242 // when unsigned variable can not
+    // unsigned int number4 = 242 // when unsigned variable can not
                                // accept negative numbers.
     
     /*
